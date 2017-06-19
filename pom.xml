@@ -6,7 +6,7 @@
 
     <groupId>ch.ethz.matsim</groupId>
     <artifactId>sioux_falls</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
 
     <repositories>
         <!-- Needed for geotools in matsim main -->
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>org.matsim</groupId>
             <artifactId>matsim</artifactId>
-            <version>0.10.0-SNAPSHOT</version>
+            <version>0.10.0-eth</version>
         </dependency>
 
         <dependency>
