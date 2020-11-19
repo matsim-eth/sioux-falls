@@ -33,7 +33,7 @@ public class RunMATSim{
 
     public static void main(String[] args) {
         Config config = ConfigUtils.loadConfig(SiouxFallsUtils.getConfigURL());
-        config.controler().setLastIteration(1);
+        config.controler().setLastIteration(100);
 
         Scenario scenario = ScenarioUtils.loadScenario(config);
 
